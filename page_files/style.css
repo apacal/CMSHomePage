@@ -6,7 +6,9 @@
  * Version: 1.0
  * URL: http://blacktie.co
  */
- 
+#slide-1 {
+}
+
 .font-thin {
 	font-family: "Titillium Web", sans-serif;
 	font-weight: 200;
@@ -239,13 +241,40 @@ body {
 
 @media (max-width: 991px) {
 	#slide-1 {
-		background-position: -70% 0, 170% 0;
+
+        background-image: url('./bg_1.jpg');
+        color: #ffffff;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        background-attachment: relative;
+        background-position: center center;
 	}
 }
 
 @media (max-width: 767px) {
 	#slide-1 {
-		background-image: none;
+        background-image: url('./bg_1.jpg');
+        color: #ffffff;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        background-attachment: relative;
+        background-position: center center;
 	}
 }
 
@@ -533,17 +562,6 @@ body {
 	display: none;
 }
 
-.zoom {
-	background-image: url('../images/zoom.png');
-	background-position: center center;
-	background-repeat: no-repeat;
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: 999;
-}
 
 #arrows {
 	bottom: 10%;
